@@ -1,0 +1,22 @@
+.square{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* justify-content: center; */
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    margin: 100px;
+    /* margin-bottom: 200px; */
+}
+
+.rat{
+    background-image: url("./images/rat.png");
+    background-size: cover;
+
+}
